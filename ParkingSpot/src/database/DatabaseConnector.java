@@ -451,7 +451,7 @@ public class DatabaseConnector {
 	public void openConnection() {
 		url = "jdbc:mysql://localhost:3306/parkingspot";
 		username = "root";
-		password = "7PPwwsy4x!";
+		password = "My-Secret-Password!";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url, username, password);
