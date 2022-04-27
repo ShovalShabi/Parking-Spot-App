@@ -1,5 +1,5 @@
 # Design-Patterns
-Final project in course Design Patterns conducted in Java for the buissenes logic,JavaFX for GUI and MySQL for designing the DB.
+Final project in course Design Patterns conducted in Java for the buissenes logic, JavaFX for GUI and MySQL for designing the DB.
 
 **Project vision:**
 An application that helps drivers to find a nearby parking spot which is free.
