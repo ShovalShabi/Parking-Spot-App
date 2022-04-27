@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="362.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+		<Pane prefHeight="380.0" prefWidth="598.0" BorderPane.alignment="CENTER">
+			<children>
+				<ImageView fitHeight="379.0" fitWidth="604.0" layoutX="-3.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@Parking%20Spot.png" />
+					</image>
+				</ImageView>
+				<Text layoutX="151.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report On Spot" wrappingWidth="296.46732902526855">
+					<font>
+						<Font size="40.0" />
+					</font>
+				</Text>
+				<ButtonBar layoutX="403.0" layoutY="187.0" prefHeight="40.0" prefWidth="120.0" />
+            <TextField fx:id="reportedAddressTxt" alignment="CENTER" layoutX="145.0" layoutY="112.0" prefHeight="25.0" prefWidth="283.0" promptText="The address" />
+            <TextField fx:id="repoertInfoTxt" alignment="CENTER" layoutX="143.0" layoutY="187.0" prefHeight="25.0" prefWidth="287.0" promptText="Info" />
+            <Button fx:id="reportBtn" layoutX="261.0" layoutY="270.0" mnemonicParsing="false" text="Report" />
+            <Button fx:id="reportBackBtn" layoutX="523.0" layoutY="38.0" mnemonicParsing="false" text="back" />
+			</children>
+		</Pane>
+   </bottom>
+</BorderPane>

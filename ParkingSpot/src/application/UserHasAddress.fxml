@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="972.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.ViewCommunicator">
+   <bottom>
+		<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+			<children>
+				<ImageView fitHeight="674.0" fitWidth="1008.0" layoutX="-22.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@Parking%20Spot.png" />
+					</image>
+				</ImageView>
+				<Text layoutX="259.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There You Are!" textAlignment="CENTER" wrappingWidth="481.26732444763184">
+					<font>
+						<Font name="Forte" size="55.0" />
+					</font>
+				</Text>
+            <Button fx:id="userHasAddressBackBtn" layoutX="875.0" layoutY="33.0" mnemonicParsing="false" onAction="#displayPrimaryView" style="-fx-background-color: #9a42ff;" text="back" textFill="#f2d3d3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Label fx:id="userHasAddressLbl" alignment="CENTER" layoutX="216.0" layoutY="201.0" prefHeight="58.0" prefWidth="531.0" style="-fx-background-color: #9a42ff; -fx-text-fill: #f2d3d3;" textAlignment="CENTER" textFill="#f2d3d3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="userHasAddressLeaveBtn" layoutX="379.0" layoutY="310.0" mnemonicParsing="false" onAction="#userLeaveSpot" style="-fx-background-color: #9a42ff;" text="Leave the Parking Spot" textFill="#f2d3d3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="userHasAddressMsgLbl" alignment="CENTER" layoutX="236.0" layoutY="432.0" prefHeight="65.0" prefWidth="504.0" text="The Parking Spot Is Now Free For All!" textAlignment="CENTER" textFill="#00ff37" visible="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="193.0" fitWidth="211.0" layoutX="765.0" layoutY="335.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/found.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="23.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/place.png" />
+               </image>
+            </ImageView>
+			</children>
+		</Pane>
+   </bottom>
+</BorderPane>

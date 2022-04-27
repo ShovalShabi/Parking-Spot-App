@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.ViewCommunicator">
+   <center>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="764.0" fitWidth="1006.0" layoutX="-2.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Parking%20Spot.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="248.0" layoutY="23.0" prefHeight="62.0" prefWidth="401.0" text="Active Reports" textFill="#0b0303">
+               <font>
+                  <Font name="Forte" size="55.0" />
+               </font>
+            </Label>
+            <TableView fx:id="seeMyReportTable" layoutX="15.0" layoutY="131.0" prefHeight="354.0" prefWidth="971.0" style="-fx-background-color: transparent;">
+              <columns>
+                <TableColumn fx:id="seeMyReportInfoCol" prefWidth="915.2000608444214" text="Report Info" />
+                <TableColumn fx:id="seeMyReportLikeCol" minWidth="0.0" prefWidth="55.9998779296875" text="Likes" />
+              </columns>
+            </TableView>
+            <Button fx:id="seeMyReportsBackBtn" layoutX="885.0" layoutY="34.0" mnemonicParsing="false" onAction="#displayPrimaryView" style="-fx-background-color: #9a42ff;" text="Back" textFill="#f2d3d3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <ImageView fitHeight="99.0" fitWidth="138.0" layoutX="82.0" layoutY="14.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/comments.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="99.0" fitWidth="138.0" layoutX="65.0" layoutY="485.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/like.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="99.0" fitWidth="138.0" layoutX="827.0" layoutY="495.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/love.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="99.0" fitWidth="138.0" layoutX="704.0" layoutY="14.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/communication.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

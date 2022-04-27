@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.ViewCommunicator">
+   <children>
+      <ImageView fitHeight="632.0" fitWidth="1007.0" layoutX="-6.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Parking%20Spot.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="407.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In" wrappingWidth="229.22900390625">
+         <font>
+            <Font name="Forte" size="55.0" />
+         </font>
+      </Text>
+      <TextField fx:id="emailTxtSignIn" layoutX="410.0" layoutY="132.0" promptText="E-Mail" style="-fx-background-color: #9a42ff; -fx-text-fill: #f2d3d3;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Button fx:id="backBtnSignIn" layoutX="888.0" layoutY="23.0" mnemonicParsing="false" onAction="#backToWelcome" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: #9a42ff;" text="Back" textFill="#f2d3d3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginBtn" layoutX="462.0" layoutY="314.0" mnemonicParsing="false" onAction="#logInIsPressed" style="-fx-background-color: #9a42ff;" text="LogIn" textFill="#f2d3d3">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label fx:id="msgSignIn" alignment="CENTER" layoutX="95.0" layoutY="427.0" prefHeight="80.0" prefWidth="805.0" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <PasswordField fx:id="passSignIn" layoutX="410.0" layoutY="220.0" promptText="Password" style="-fx-background-color: #9a42ff; -fx-text-fill: #f2d3d3;">
+         <font>
+            <Font size="18.0" />
+         </font></PasswordField>
+      <ImageView fitHeight="188.0" fitWidth="220.0" layoutX="43.0" layoutY="23.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/log-in.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="807.0" layoutY="447.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/log-in%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

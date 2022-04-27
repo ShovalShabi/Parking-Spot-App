@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.ViewCommunicator">
+   <bottom>
+		<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+			<children>
+				<ImageView fitHeight="642.0" fitWidth="1006.0" layoutX="-3.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@Parking%20Spot.png" />
+					</image>
+				</ImageView>
+				<Text layoutX="187.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help Us Find You!" textAlignment="CENTER" wrappingWidth="626.8673000335693">
+					<font>
+						<Font name="Forte" size="55.0" />
+					</font>
+				</Text>
+            <Button fx:id="userHasNoAddressSearchBtn" layoutX="476.0" layoutY="369.0" mnemonicParsing="false" onAction="#helpUsFindTheUser" style="-fx-background-color: #9a42ff;" text="Search" textFill="#f2d3d3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="userHasNoAddressBackBtn" layoutX="895.0" layoutY="30.0" mnemonicParsing="false" onAction="#displayPrimaryView" style="-fx-background-color: #9a42ff;" text="back" textFill="#f2d3d3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <TextField fx:id="userHasNoAddressCityTxtField" layoutX="405.0" layoutY="134.0" prefHeight="26.0" prefWidth="218.0" promptText="🔍City" style="-fx-background-color: #9a42ff; -fx-text-fill: #f2d3d3;">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <TextField fx:id="userHasNoAddressNumHouseTxtField" layoutX="405.0" layoutY="303.0" prefHeight="26.0" prefWidth="218.0" promptText="🔍House Number" style="-fx-background-color: #9a42ff; -fx-text-fill: #f2d3d3;">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <Label fx:id="noAddressMsgLbl" alignment="CENTER" layoutX="110.0" layoutY="427.0" prefHeight="72.0" prefWidth="781.0" textAlignment="CENTER" />
+            <TextField fx:id="userHasNoAddressStreetTxtField" layoutX="405.0" layoutY="215.0" prefHeight="26.0" prefWidth="218.0" promptText="🔍Street" style="-fx-background-color: #9a42ff; -fx-text-fill: #f2d3d3;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="199.0" fitWidth="213.0" layoutX="103.0" layoutY="70.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/pin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="221.0" fitWidth="230.0" layoutX="711.0" layoutY="188.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Downloads/where%20(1).png" />
+               </image>
+            </ImageView>
+			</children>
+		</Pane>
+   </bottom>
+</BorderPane>
