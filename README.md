@@ -1,4 +1,4 @@
-# Design-Patterns
+# Parking Spot
 Final project in the course Design Patterns conducted in Java for the business logic, JavaFX for GUI, and MySQL for designing the DB.
 
 **Project vision:** 
