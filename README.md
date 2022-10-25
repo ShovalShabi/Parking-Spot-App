@@ -3,6 +3,7 @@ Final project in the course Design Patterns conducted in Java for the business l
 
 **Project vision:** 
 An application that helps drivers to find a nearby parking spot that is free. The application will be a form of social media, in order to establish a community of drivers that helps each other, each user will be able to find available parking spots in real-time.
+
 **Application functionality:**
 -Users can send reports to other users, providing information on parking spots status (available, taken, blocked, etc..), also the users can like other users' reports.
 -The main assumption of the project is that there is a single parking spot for each address or coordinate (to simplify the idea of the project).
